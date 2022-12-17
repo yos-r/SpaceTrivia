@@ -2,16 +2,31 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/jupiter"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/jupiter"
         android:supportsRtl="true"
         android:theme="@style/Theme.SpaceTrivia"
         tools:targetApi="31">
+        <activity
+            android:name=".AboutUs"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <service
+            android:name=".BackgroundSoundService"
+            android:enabled="true"
+            android:exported="true"></service>
+
         <activity
             android:name=".SpaceFacts"
             android:exported="false">

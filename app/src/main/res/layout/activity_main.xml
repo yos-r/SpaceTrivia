@@ -1,31 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/minecraftbold"
+        android:gravity="center"
+        android:text="SPACE TRIVIA"
+        android:textSize="40sp" />
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="79dp" />
+        android:layout_height="34dp" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        app:srcCompat="@drawable/img" />
+        android:layout_width="411dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/image_4" />
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="46dp" />
+        android:layout_height="38dp" />
 
     <EditText
         android:id="@+id/username"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="username"/>
+        android:fontFamily="@font/minecraftregular"
+        android:gravity="center"
+        android:hint="username"
+        android:inputType="textPersonName" />
+
 
     <Space
         android:layout_width="match_parent"
@@ -33,11 +49,14 @@
 
     <EditText
         android:id="@+id/password"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:ems="10"
-        android:inputType="textPassword"
-        android:hint="password"/>
+        android:fontFamily="@font/minecraftregular"
+        android:gravity="center"
+        android:hint="password"
+        android:inputType="textPassword" />
 
     <Space
         android:layout_width="match_parent"
@@ -45,8 +64,11 @@
 
     <Button
         android:id="@+id/signin"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/minecraftregular"
+        android:gravity="center"
         android:text="Sign in" />
 
     <Space
@@ -55,8 +77,11 @@
 
     <Button
         android:id="@+id/signup"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/minecraftregular"
+        android:gravity="center"
         android:text="Sign up" />
 
 </LinearLayout>

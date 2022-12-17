@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
         Button signupbutton = (Button) findViewById(R.id.signup);
         Button signinbutton = (Button) findViewById(R.id.signin);
 
+        Intent intent = new Intent(MainActivity.this, BackgroundSoundService.class);
+        startService(intent);
         signupbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -33,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 else{
                     Boolean usernamecheck= helper.checkUsername(user);
                     // user is not in database
-                    if (usernamecheck==false){
+                    if (!usernamecheck){
                         helper.insertData(user,pwd);
                         Toast.makeText(MainActivity.this, "inserted user "+user, Toast.LENGTH_SHORT).show();
                     }
@@ -56,15 +58,16 @@ public class MainActivity extends AppCompatActivity {
 
                     Boolean usernamecheck= helper.checkUsername(user);
                     // user is not in database
-                    if (usernamecheck==false){
+                    if (!usernamecheck){
                         Toast.makeText(MainActivity.this, "user  "+user+" isn't registered yet", Toast.LENGTH_SHORT).show();
                     }
                     else{
                         Boolean passwordcheck = helper.checkPwd(user, pwd);
-                        if (passwordcheck==true){
+                        if (passwordcheck){
                             Toast.makeText(MainActivity.this,"the credentials are true",Toast.LENGTH_SHORT).show();
-//                            Intent i = new Intent(getApplicationContext(),)
-                            //TODO: redirect logged in user to new activity (put extra)
+                            Intent i = new Intent(getApplicationContext(),Homescreen.class);
+                            i.putExtra("username",username.getText().toString());
+                            startActivity(i);
                         }
                         else{
                             Toast.makeText(MainActivity.this,"the credentials are false",Toast.LENGTH_SHORT).show();
