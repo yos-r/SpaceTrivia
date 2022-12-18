@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
-    <!-- Here you put the rest of your current view-->
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+<LinearLayout
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -46,7 +46,7 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
-        android:layout_height="151dp"
+        android:layout_height="129dp"
         app:srcCompat="@drawable/image_1" />
 
     <Space
@@ -61,7 +61,7 @@
         android:fontFamily="@font/minecraftregular"
 
         android:gravity="center"
-        android:text="Start Quiz 🦩" />
+        android:text="Start Quiz 📝" />
 
     <Space
         android:layout_width="match_parent"
@@ -75,7 +75,7 @@
 
         android:fontFamily="@font/minecraftregular"
         android:gravity="center"
-        android:text="Brush up on your space facts 📝" />
+        android:text="Brush up on your space facts 📚" />
 
     <Space
         android:layout_width="match_parent"

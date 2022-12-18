@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
                     else{
                         Boolean passwordcheck = helper.checkPwd(user, pwd);
                         if (passwordcheck){
-                            Toast.makeText(MainActivity.this,"the credentials are true",Toast.LENGTH_SHORT).show();
+                            Toast.makeText(MainActivity.this,"the credentials are valid",Toast.LENGTH_SHORT).show();
                             Intent i = new Intent(getApplicationContext(),Homescreen.class);
                             i.putExtra("username",username.getText().toString());
                             startActivity(i);

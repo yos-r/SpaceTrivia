@@ -2,7 +2,6 @@ package com.example.spacetrivia;
 
 import android.content.Context;
 import android.graphics.Color;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,39 +11,45 @@ import android.widget.TextView;
 
 import androidx.viewpager.widget.PagerAdapter;
 
-public class SlideAdapter extends PagerAdapter {
+public class AboutUsSliderAdapter extends PagerAdapter {
     Context context;
     LayoutInflater inflater;
-    public SlideAdapter(Context context) {
+    public AboutUsSliderAdapter(Context context) {
         this.context = context;
     }
     // list of images
     public int[] lst_images = {
             R.drawable.image_1,
-            R.drawable.blackhole,
-            R.drawable.jupiter,
-            R.drawable.earth
+            R.drawable.saturn,
+            R.drawable.moon,
+            R.drawable.resources
     };
     // list of titles
     public String[] lst_title = {
-            "What is the age of the universe?",
-            "What is at the center of the Milky Way galaxy?",
-            "Which planet has the largest ocean?",
-            "Which is the densest planet in our solar system?"
+            "About the project",
+            "Yosr Barghouthi",
+            "Maissa Dridi",
+            "Resources",
+
     }   ;
     // list of descriptions
     public String[] lst_description = {
-            "13.7 billion years old",
-            "A black hole is at the center of the Milky way galaxy",
-            "Jupiter",
-            "Earth"
+            "Course: Mobile development \n Fall 2022. \n Swipe left to know the creators",
+            "yosrbargouti@gmail.com \n Favorite planet: Saturn. ",
+            "maissadridi1@gmail.com \n Favorite satellite: the moon.",
+            "Font: Minecraft official font \n " +
+                    "Music: Another World by Colleen \n"+
+                    "Images: icon-icons.com\n"+"" +
+                    "API: Astronomy picture of the day by NASA"
+
     };
     // list of background colors
     public int[]  lst_backgroundcolor = {
             Color.rgb(55,55,55),
             Color.rgb(239,85,85),
             Color.rgb(110,49,89),
-            Color.rgb(1,188,212)
+            Color.rgb(239,85,85),
+
     };
 
 
