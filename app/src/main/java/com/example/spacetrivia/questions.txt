@@ -1,0 +1,99 @@
+source: https://thoughtcatalog.com/january-nelson/2021/10/astronomy-trivia/
+1-What is the age of the universe?",
+    "6000 years",
+    "13.7 billion years old",
+    "1 million years",
+    correct is: "13.7 billion years old",
+    R.drawable.jupiter
+
+2-What is at the center of the Milky Way galaxy?",
+    "The sun"
+    "A black hole",
+    "Omuamua",
+    correct: "A black hole",
+    R.drawable.blackhole
+
+3-How many planets are in the Solar System?
+    "Eight planets"
+    "Nine planets"
+    "Ten planets"
+    correct is "Eight planets"
+    put image of galaxy
+
+4-Which planet has the largest ocean?
+    "Mars"
+    "Earth"
+    "Jupiter"
+    correct is" jupiter"
+    put image of ocean.. 
+
+5-Which is the densest planet in our solar system?
+    "Earth" 
+    "Saturn"
+    "Venus"
+    correct is earth
+    insert image of earth
+
+6-Who was the first person to travel into space? 
+    Yuri Gagarin.
+    neil Armstrong
+    Alan shepard
+    correct: yuri Gagarin
+    insert image of astronoaut
+7-How long does it take the sun’s rays to reach Earth? 
+    15 minutes
+    1 minute
+    8minutes
+    correct is 8 minutes
+    insert image of sun
+
+8-Which planet is closest in size to Earth?
+    Venus
+    Mars
+    Pluto
+    correct is Venus
+    insert image of Venus
+9-\What accounts for approximately 85% of the matter in the universe?
+    Dark energy
+    Dark matter
+    Normal matter
+    correct is dark matter
+    insert image of universe
+
+10- What spacecraft visited Uranus?
+    The voyager 2
+    James Webb telescope
+    Pioneer 10
+    correct: the voyager 2
+    insert image of spacecraft
+
+11-What do you call a large number of meteoroids occurring at the same time and place?
+    A meteor shower
+    A Coronal Mass Ejection.
+    A pulsar
+    correct: a meteor shower
+
+12- How old is the sun?
+    1 billion years
+    As old as the universe
+    4.6 billion years
+    correct is: 4.6 
+    insert image of sun
+
+13-Which planet has the most volcanoes? 
+    Earth
+    Venus
+    Mars
+    correct is Venus
+    insert image of volcanoes
+
+14-What protects Earth from meteoroids and radiation from the sun?
+    the atmosphere
+    the clouds
+    alien spaceships
+    correct: the atmosphere
+    insert image of meteroid
+
+
+
+    
