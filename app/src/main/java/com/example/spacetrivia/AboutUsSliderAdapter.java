@@ -35,13 +35,12 @@ public class AboutUsSliderAdapter extends PagerAdapter {
     // list of descriptions
     public String[] lst_description = {
             "This project was carried out for the course of mobile development \n December of 2022. \n Swipe left to know the creators",
-            "yosrbargouti@gmail.com \n Favorite planet: Saturn.  \n Favorite element: Bismuth (83) ",
-            "maissadridi1@gmail.com \n Favorite satellite: the moon.",
+            "yosrbargouti@gmail.com \n Favorite planet: Saturn.  \n Favorite elements: Bismuth (83) and Carbon (14) ",
+            "maissadridi1@gmail.com \n Favorite satellite: the moon. \n Favorite elements: Uranium (92), Tungsten (74) and Uranium (92) UWU 🥺",
             "Font: Minecraft official font \n " +
                     "Music: Another World by Colleen \n"+
                     "Images: icon-icons.com\n"+"" +
                     "API: Astronomy picture of the day by NASA"
-
     };
     // list of background colors
     public int[]  lst_backgroundcolor = {
