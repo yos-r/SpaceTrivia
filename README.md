@@ -2,11 +2,12 @@
 
 ### 🚀 About the project
 
-An Android application consisting of a space trivia quiz, a slideshow for space facts and NASA daily images fetched from the Astronomy Picture Of the Day API.
+Space Trivia is an Android application consisting of a space trivia quiz, a slideshow for space facts and NASA daily images fetched from the Astronomy Picture Of the Day API.
 
 Work done by Yosr Barghouthi (`yosr.barghouthi@etudiant-isi.utm.tn`) and Maissa Dridi (`maissa.dridi@etudiant-isi.utm.tn`) L3CS02
 
 Course: Mobile development, fall 2022.
+Demo:  [https://www.youtube.com/watch?v=0D65EjLDddE&ab_channel=yosr](https://www.youtube.com/watch?v=0D65EjLDddE&ab_channel=yosr)
 
 ### 🛰️ At a glance
 Space Trivia                     |  Homepage                  | Quiz
