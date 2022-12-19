@@ -94,6 +94,21 @@ source: https://thoughtcatalog.com/january-nelson/2021/10/astronomy-trivia/
     correct: the atmosphere
     insert image of meteroid
 
+15- How many constellations are there?
+    88
+    Millions
+    Ten thousand
+    correct is 88
+    insert image of constellation
+
+16- Where is the coldest place in the universe?
+    The Boomerang Nebula.
+    Pluto
+    Neptune
+    correct is the boomerang nebula
+
+
+
 
 
     
