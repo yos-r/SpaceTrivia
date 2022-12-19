@@ -23,6 +23,8 @@ A first-time user can sign up by providing a **username** and a **password**.
 
 The login data is stored in a SQLite database `login.db`
 
+The class `DBHelper.java` performs operations to the `login.db` database. These operations include the creation of the table users, dropping it, inserting a row and checking credentials.
+
 Activities and layouts: `MainActivity.java`and `activity_main.xml`
 
 NB: background music starts playing the background with the help of the service `BackgroundSoundService.java`
@@ -35,7 +37,6 @@ The user can start the space trivia quiz, brush up on space facts, look up NASA 
 
 Activities and layouts: `Homescreen.java`and `activity_homescreen.xml`
 
-The class `DBHelper.java` performs operations to the `login.db` database. These operations include the creation of the table users, dropping it, inserting a row and checking credentials.
 
 ### 📝 Quiz
 
