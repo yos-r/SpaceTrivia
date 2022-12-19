@@ -47,6 +47,9 @@ Activities and layouts: `SpaceQuiz.java`and `activity_space_quiz.xml`
 
 This activity relies on the `Question.java` class whose attributes describe a question, its options, the correct answer to it and its corresponding image.
 
+Question 1                     |  Question 2                  | Question 3
+:------------------------------------:|:-----------------------------------:|:-----------------------------------:
+![](quiz1.png)  |  ![](quiz2.png) | ![](quiz3.png)
 ### 🔢 Quiz Score
 
 Upon completion of the quiz, the score is returned and a corresponding message is shown.
@@ -65,7 +68,9 @@ This section is a slider that displays space facts with a question, an image and
 Activities and layouts: `SpaceFacts.java` and `activity_space_facts.xml`. This activity features a ViewPager that takes in a `SlideAdapter` object as its adapter.
 
 `SlideAdapter.java` is a class linked to the layout file `slide.xml` and that configures the content of the slider. (images, text and background color )
-
+Fact 1                  |  Fact 2                  | Fact 3
+:------------------------------------:|:-----------------------------------:|:-----------------------------------:
+![](fact1.png)  |  ![](fact2.png) | ![](fact3.png)
 ### 🌌Nasa API (Astronomy picture of the day)
 
 This section makes a call to APOD API provided by NASA to retrieve each NASA image of the day starting from december 12th,2022.
@@ -118,15 +123,24 @@ To format the elements of the arraylist, the layout file `activity_nasaimage_of_
 
 `PostAdapter.java` is linked to the layout file `eachimage.xml` and it parses the results array to set data to elements of the layout file.
 
+APOD 1                     |  APOD 2                  | APOD 3
+:------------------------------------:|:-----------------------------------:|:-----------------------------------:
+![](apod1.png)  |  ![](apod2.png) | ![](apod3.png)
+
 ### 📄About the project
 
 This section displays information about the creators, as well as resources used in the project.
 
 Activities and layouts: `AboutUs.java`and `activity_about_us.xml` , `AboutUsSliderAdapter.java` and `slide.xml`
+
 Credits:
 - font: minecraft official font
 - song: another world by colleen
 - icons: icon-icons.com
 - API: APOD by NASA
+
+About 1                   |  About 2                  | About 3               | About 4
+:------------------------------------:|:-----------------------------------:|:-----------------------------------:|:-----------------------------------:
+![](resources1.png)  |  ![](resources2.png) | ![](resources3.png)       | ![](resources4.png)
 
 
