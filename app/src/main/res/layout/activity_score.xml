@@ -19,12 +19,12 @@
             android:fontFamily="@font/minecraftregular"
             android:gravity="center|center_horizontal|center_vertical"
             android:text="You scored"
-            android:textSize="30sp" />
+            android:textSize="40sp" />
 
         <ImageView
             android:id="@+id/imgscore"
             android:layout_width="308dp"
-            android:layout_height="150dp"
+            android:layout_height="165dp"
             android:layout_gravity="center" />
 
         <TextView
@@ -35,7 +35,7 @@
             android:layout_margin="40sp"
             android:fontFamily="@font/minecraftregular"
             android:textAlignment="center"
-            android:textSize="15sp" />
+            android:textSize="30sp" />
 
         <Button
             android:id="@+id/retakequiz"
@@ -43,7 +43,9 @@
             android:layout_height="wrap_content"
             android:layout_margin="40dp"
             android:fontFamily="@font/minecraftregular"
-            android:text="Retake quiz 🔁" />
+            android:padding="15sp"
+            android:text="Retake quiz 🔁"
+            android:textSize="20sp" />
 
     </LinearLayout>
 </ScrollView>

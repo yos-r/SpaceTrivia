@@ -35,7 +35,7 @@
                 android:fontFamily="@font/minecraftbold"
                 android:gravity="center"
                 android:text="TextView"
-                android:textSize="20sp" />
+                android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/dateImage"
@@ -45,7 +45,8 @@
                 android:layout_margin="5dp"
                 android:fontFamily="@font/minecraftregular"
                 android:gravity="center"
-                android:text="TextView" />
+                android:text="TextView"
+                android:textSize="20sp" />
 
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/nasaImage"
@@ -69,7 +70,8 @@
                 android:fontFamily="@font/minecraftregular"
                 android:text="TextView"
                 android:textAlignment="center"
-                android:textColor="#302B2B" />
+                android:textColor="#302B2B"
+                android:textSize="17sp" />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>

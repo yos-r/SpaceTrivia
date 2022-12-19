@@ -20,31 +20,101 @@ public class SlideAdapter extends PagerAdapter {
     }
     // list of images
     public int[] lst_images = {
-            R.drawable.image_1,
+            R.drawable.factsintro,
+            R.drawable.universe,
             R.drawable.blackhole,
             R.drawable.jupiter,
-            R.drawable.earth
+            R.drawable.earth,
+            R.drawable.planetstoo,
+            R.drawable.astronaut,
+            R.drawable.sunicon,
+            R.drawable.venus,
+            R.drawable.universetoo,
+            R.drawable.spacecraft,
+            R.drawable.meteroid,
+            R.drawable.sunicon,
+            R.drawable.volcano,
+            R.drawable.radiation,
+            R.drawable.constellation,
+            R.drawable.nebula,
+            R.drawable.universetoo,
+            R.drawable.mercury,
+            R.drawable.jupiter,
+            R.drawable.astronautman
+
     };
     // list of titles
     public String[] lst_title = {
+            "Here are some space facts to prepare for the quiz",
             "What is the age of the universe?",
             "What is at the center of the Milky Way galaxy?",
             "Which planet has the largest ocean?",
-            "Which is the densest planet in our solar system?"
+            "Which is the densest planet in our solar system?",
+            "How many planets are in the Solar System?",
+            "Who was the first person to travel into space?",
+            "How long does it take the sun’s rays to reach Earth? ",
+            "Which planet is closest in size to Earth?",
+            "What accounts for approximately 85% of the matter in the universe?",
+            "What spacecraft visited Uranus?",
+            "What do you call a large number of meteoroids occurring at the same time and place?",
+            "How old is the sun?",
+            "Which planet has the most volcanoes?",
+            "What protects Earth from meteoroids and radiation from the sun?",
+            "How many constellations are there?",
+            "Where is the coldest place in the universe?",
+            "What is the unit of measurement used to describe the expansion of the universe?",
+            "Which one of these planets doesn't have a ring around it?",
+            "Which is the oldest planet in our solar system?",
+            "Who was the first person to walk on the moon?"
     }   ;
     // list of descriptions
     public String[] lst_description = {
+            "Swipe left to discover the facts ! ⬅️ ",
             "13.7 billion years old",
-            "A black hole is at the center of the Milky way galaxy",
+            "A black hole",
             "Jupiter",
-            "Earth"
+            "Earth",
+            "Eight Planets",
+            "Yuri Gagarin",
+            "8 minutes",
+            "Venus",
+            "Dark Matter",
+            "Voyager 2",
+            "A meteor shower",
+            "4.6 billion years",
+            "Venus",
+            "The atmosphere",
+            "88",
+            "The boomerang Nebula",
+            "The Hubble constant",
+            "Mercury",
+            "Jupiter",
+            "Neil Armstrong"
     };
     // list of background colors
     public int[]  lst_backgroundcolor = {
+            Color.rgb(1,188,212),
             Color.rgb(55,55,55),
             Color.rgb(239,85,85),
             Color.rgb(110,49,89),
-            Color.rgb(1,188,212)
+            Color.rgb(1,188,212),
+            Color.rgb(55,55,55),
+            Color.rgb(239,85,85),
+            Color.rgb(110,49,89),
+            Color.rgb(1,188,212),
+            Color.rgb(55,55,55),
+            Color.rgb(239,85,85),
+            Color.rgb(110,49,89),
+            Color.rgb(1,188,212),
+            Color.rgb(55,55,55),
+            Color.rgb(239,85,85),
+            Color.rgb(110,49,89),
+            Color.rgb(1,188,212),
+            Color.rgb(55,55,55),
+            Color.rgb(239,85,85),
+            Color.rgb(110,49,89),
+            Color.rgb(1,188,212),
+
     };
 
 

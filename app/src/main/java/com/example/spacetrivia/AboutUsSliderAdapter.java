@@ -19,7 +19,7 @@ public class AboutUsSliderAdapter extends PagerAdapter {
     }
     // list of images
     public int[] lst_images = {
-            R.drawable.image_1,
+            R.drawable.image_3,
             R.drawable.saturn,
             R.drawable.moon,
             R.drawable.resources
@@ -34,8 +34,8 @@ public class AboutUsSliderAdapter extends PagerAdapter {
     }   ;
     // list of descriptions
     public String[] lst_description = {
-            "Course: Mobile development \n Fall 2022. \n Swipe left to know the creators",
-            "yosrbargouti@gmail.com \n Favorite planet: Saturn. ",
+            "This project was carried out for the course of mobile development \n December of 2022. \n Swipe left to know the creators",
+            "yosrbargouti@gmail.com \n Favorite planet: Saturn.  \n Favorite element: Bismuth (83) ",
             "maissadridi1@gmail.com \n Favorite satellite: the moon.",
             "Font: Minecraft official font \n " +
                     "Music: Another World by Colleen \n"+
