@@ -113,3 +113,10 @@ To format the elements of the arraylist, the layout file `activity_nasaimage_of_
 This section displays information about the creators, as well as resources used in the project.
 
 Activities and layouts: `AboutUs.java`and `activity_about_us.xml` , `AboutUsSliderAdapter.java` and `slide.xml`
+Credits:
+- font: minecraft official font
+- song: another world by colleen
+- icons: icon-icons.com
+- API: APOD by NASA
+
+
