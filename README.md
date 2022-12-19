@@ -9,6 +9,12 @@ Work done by Yosr Barghouthi (`yosr.barghouthi@etudiant-isi.utm.tn`) and Maissa 
 Course: Mobile development, fall 2022.
 
 ### 🛰️ At a glance
+Space Trivia                     |  Homepage                  | Quiz
+:------------------------------------:|:-----------------------------------:|:-----------------------------------:
+![](login.png)  |  ![](homepage.png) | ![](quiz.png)
+Score                   |  Space Fact                             | Astronomy picture of the day API
+:------------------------------------:|:-----------------------------------:|:-----------------------------------:
+![](result.png)  |  ![](fact.png) | ![](apod.png)
 
 ### 🔐User authentication
 
