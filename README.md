@@ -28,7 +28,7 @@ The user can start the space trivia quiz, brush up on space facts, look up NASA 
 
 Activities and layouts: `Homescreen.java`and `activity_homescreen.xml`
 
-The class `[DBHelper.java](http://DBHelper.java)` performs operations to the `login.db` database. These operations include the creation of the table users, dropping it, inserting a row and checking credentials.
+The class `DBHelper.java` performs operations to the `login.db` database. These operations include the creation of the table users, dropping it, inserting a row and checking credentials.
 
 ### 📝 Quiz
 
@@ -52,17 +52,17 @@ Activities and layouts: `ScoreActivity.java`and `activity_score.xml`
 
 This section is a slider that displays space facts with a question, an image and a corresponding answer. The user swipes left to learn about space facts.
 
-Activities and layouts: [`SpaceFacts.java`](http://SpaceFacts.java) and `activity_space_facts.xml`. This activity features a ViewPager that takes in a `SlideAdapter` object as its adapter.
+Activities and layouts: `SpaceFacts.java` and `activity_space_facts.xml`. This activity features a ViewPager that takes in a `SlideAdapter` object as its adapter.
 
-[`SlideAdapter.java](http://SlideAdapter.java)` is a class linked to the layout file `slide.xml` and that configures the content of the slider. (images, text and background color )
+`SlideAdapter.java` is a class linked to the layout file `slide.xml` and that configures the content of the slider. (images, text and background color )
 
 ### 🌌Nasa API (Astronomy picture of the day)
 
 This section makes a call to APOD API provided by NASA to retrieve each NASA image of the day starting from december 12th,2022.
 
-`[Singleton.java](http://Singleton.java)` allows for one request queue to be made.
+`Singleton.java` allows for one request queue to be made.
 
-The activity `[NasaImageOfTheDay.java](http://NasaImageOfTheDay.java)` performs an API call to fetch a JSON array. Each element of the array contains the title, description, date and url of the image. These details are used to construct `[NasaImage.java](http://NasaImage.java)` objects, these objects will be later added to an ArrayList `mList` (attribute of the class `NasaImageOfTheDay.java` )
+The activity `NasaImageOfTheDay.java` performs an API call to fetch a JSON array. Each element of the array contains the title, description, date and url of the image. These details are used to construct `NasaImage.java` objects, these objects will be later added to an ArrayList `mList` (attribute of the class `NasaImageOfTheDay.java` )
 
 ```java
 String url = "https://api.nasa.gov/planetary/apod?api_key=mVHP73isNjhQZroWysMhXKYtTXbS9eOUMR2I4lSl&start_date=2022-12-12";
@@ -104,12 +104,12 @@ String url = "https://api.nasa.gov/planetary/apod?api_key=mVHP73isNjhQZroWysMhXK
         requestQueue.add(jsonArrayRequest);
 ```
 
-To format the elements of the arraylist, the layout file `activity_nasaimage_of_the_day.xml` uses a RecyclerView that takes in as adapter a [`PostAdapter.java](http://PostAdapter.java)` object.
+To format the elements of the arraylist, the layout file `activity_nasaimage_of_the_day.xml` uses a RecyclerView that takes in as adapter a `PostAdapter.java` object.
 
-`[PostAdapter.java](http://PostAdapter.java)` is linked to the layout file `eachimage.xml` and it parses the results array to set data to elements of the layout file.
+`PostAdapter.java` is linked to the layout file `eachimage.xml` and it parses the results array to set data to elements of the layout file.
 
 ### 📄About the project
 
 This section displays information about the creators, as well as resources used in the project.
 
-Activities and layouts: `AboutUs.java`and `activity_about_us.xml` , `[AboutUsSliderAdapter.java](http://AboutUsSliderAdapter.java)` and `slide.xml`
+Activities and layouts: `AboutUs.java`and `activity_about_us.xml` , `AboutUsSliderAdapter.java` and `slide.xml`
