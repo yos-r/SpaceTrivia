@@ -12,9 +12,10 @@ Course: Mobile development, fall 2022.
 Space Trivia                     |  Homepage                  | Quiz
 :------------------------------------:|:-----------------------------------:|:-----------------------------------:
 ![](login.png)  |  ![](homepage.png) | ![](quiz.png)
-Score                   |  Space Fact                             | Astronomy picture of the day API
+
+Score                             |  Space Fact                             | Astronomy picture of the day API
 :------------------------------------:|:-----------------------------------:|:-----------------------------------:
-![](result.png)  |  ![](fact.png) | ![](apod.png)
+![](result.png)  |  ![](fact.png) |   ![](apod.png)
 
 ### 🔐User authentication
 
@@ -53,6 +54,9 @@ Upon completion of the quiz, the score is returned and a corresponding message i
 The user can retake the test by clicking on the “Retake test 🔂” button.
 
 Activities and layouts: `ScoreActivity.java`and `activity_score.xml`
+Perfect                |  Great                  | Average                              | Low
+:------------------------------------:|:-----------------------------------:|:-----------------------------------:|:-----------------------------------:
+![](perfect.png)  |  ![](rising.png) | ![](result.png) | ![](facepalm.png)
 
 ### 📚Brushing up on space facts
 
