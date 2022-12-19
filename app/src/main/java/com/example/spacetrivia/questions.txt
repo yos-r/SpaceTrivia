@@ -106,6 +106,31 @@ source: https://thoughtcatalog.com/january-nelson/2021/10/astronomy-trivia/
     Pluto
     Neptune
     correct is the boomerang nebula
+17- What is the unit of measurement used to describe the expansion of the universe?
+    Newton
+    The Hubble Constant.
+    Light years
+    correct is the hubble constant
+18- Which one of these planets doesn't have a ring around them?
+    Saturn
+    Neptune
+    Mercury
+    correct is mercury
+
+19- Which is the oldest planet in our solar system?
+    Jupiter
+    Neptune
+    Mars
+    correct is jupiter
+
+20- Who was the first person to walk on the moon?
+    Yuri gagarin
+    Neil Armstrong
+    Valentina Tereshkova
+    correct is neil armstrong
+
+
+
 
 
 

@@ -34,6 +34,10 @@ public class ScoreActivity extends AppCompatActivity {
             imgscore.setImageResource(R.drawable.thonk);
             descriptionstore.setText("Okayish, but not that great. are you really cut out for space?");
         }
+        else if (score >=15 && score<20){
+            imgscore.setImageResource(R.drawable.meteroid);
+            descriptionstore.setText("Okay rising star, keep perfecting.");
+        }
         else if (score==20){
             imgscore.setImageResource(R.drawable.astronaut);
             descriptionstore.setText("Talented, brilliant, amazing, show stopping, spectacular, never the same, totally unique, never been done before.");
